@@ -1,0 +1,32 @@
+output "peer1_vnet_id" {
+  value = azurerm_virtual_network.peer1.id
+}
+
+output "peer2_vnet_id" {
+  value = azurerm_virtual_network.peer2.id
+}
+
+output "peer1_subnet_id" {
+  value = azurerm_subnet.sn1.id
+}
+
+output "peer2_subnet_id" {
+  value = azurerm_subnet.sn2.id
+}
+
+output "peer1_nic_id" {
+  value = azurerm_network_interface.main1.id
+}
+
+output "peer2_nic_id" {
+  value = azurerm_network_interface.main2.id
+}
+
+output "peer1_vm_id" {
+  value = azurerm_virtual_machine.main1.id
+}
+
+output "peer2_vm_id" {
+  value = azurerm_virtual_machine.main2.id
+}
+
